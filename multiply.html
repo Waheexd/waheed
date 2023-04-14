@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		
+		td
+		{
+			background-color:lavender;
+			border:;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		var rows=prompt("Enter rows");
+		document.write("ROWs  "+rows);
+		var cols=prompt("Enter cols");
+		document.write("COLS  "+cols);
+		document.write("<table border=1>");
+		for(i=1;i<=rows;i++)
+		{
+			document.write("<str>");
+			for(j=1;j<=cols;j++)
+			{
+				document.write("<td>"+(i*j)+"</td>");
+
+			}
+			document.write("<br>");
+			document.write("</tr>")
+		}
+
+	</script>
+
+</body>
+</html>
