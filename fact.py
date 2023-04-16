@@ -4,4 +4,4 @@ i=1
 while i<=n:
     fact=fact*i
     i=i+1
-print("defvce",fact)
+print("Factorila Is",fact)
